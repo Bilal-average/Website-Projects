@@ -1,0 +1,346 @@
+/* Navigation bar starts here*/
+html {
+    font-family: "Lato", "Arial", "Helvetica neue", "Helvetica", sans-serif;
+}
+body {
+    margin: 0px;
+}
+header {
+    height: 80px;
+    background-color: #100c08;
+}
+#Header-Box {
+    width: 60%;
+    margin: auto;
+}
+.col-3 {
+    width: 33%;
+    float: left;
+} 
+.col-2{
+    width: 40%;
+    float: left;
+    padding: 50px;
+}
+/* this is for third and fourth section of website*/
+.col-1 {
+    width: 45%;
+    float: left;
+}
+.col-0 {
+    width: 80%;
+    margin: auto;   
+}
+.menu {
+  padding-top: 20px;
+  width: 300px;   
+}
+.logo{
+    display: inline-block;
+    float: center;
+    padding-top: 2.5px;
+}
+.menu li{
+    list-style-type: none;
+    display: inline;
+    font-size: .85em;
+    color: #a97c50;
+    padding-right: 30px;
+    margin: auto;
+}
+.sign-up{
+    background-color: #a97c50;
+    border-radius: 28px;
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    text-decoration: none;
+    color: #100c08;
+    padding: 10px 15px;
+    margin-top: 20px;
+    display: inline-block;
+    float: right;
+    font-size: 17px;                                        
+}
+/* Navigation bar end here*/
+#top-section-main { 
+    background-image: url(Images/photo-1501339847302-ac426a4a7cbb.avif);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 900px;
+    border: none;
+}
+#top-section-content {
+       width: 60%;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 0px;
+}
+#top-section-content h1 {
+    padding-top: 150px;
+    font-size: 4em;
+    font-weight: 400;
+    text-align: center;
+    color: #100c08;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+#top-section-content p {
+    margin-top: 5px;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: center;
+    color: #100c08;
+} 
+/* Content ends here*/
+
+#top-section-symbol{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.symbol-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.promo-form h6 {
+    font-family: sans-serif;
+    color: #100c08;
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: center;
+}
+.promo-form input {
+    margin: 0;
+    padding-left: 15px;
+    width: 30%;
+    height: 40px;
+    color: #a97c50;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 200;
+    border: 0;
+}
+.promo-form button{
+    margin: 0;
+    width: 30%;
+    height: 40px;  
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 210;
+    background-color: #a97c50;
+    color: #100c08;
+    padding-left: 15px;
+    border: none;  
+}
+/* sign up and symbol section ends here*/
+#feature-section {
+    padding-top: 100px;
+    background-color: #100c08; 
+    width: 100%;
+    clear: both;
+    
+}
+.feature-section-header{
+    width: 60%;
+    margin: auto;
+}
+#feature-section, h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: 200;
+    color: #a97c50;
+    
+}
+.feature-content {
+    padding-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    overflow: auto;
+    padding-bottom: 100px;
+
+}
+.feature-content .col-2 img{
+    width: 100%;
+}
+.feature-content p{
+    color: #78866b;
+    font-size: 16px;
+    font-family: "Lato", "Arial", "Helvetica neue", "Helvetica", sans-serif;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+/* feature section end here*/
+#phone-container {
+    background-color: #78866b; 
+    background-size: auto;
+    margin: 0;
+}
+.phone-content {
+    padding-top: 100px;
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    margin-bottom: 0px;
+}
+.phone-content .iphone-pic {
+    width: 100%;
+    margin: 0;
+}
+.iphone-text{
+    text-align: center;
+    padding-top: 400px;
+    color: #100c08;
+    padding-left: 100px;
+    font-size: 2em;
+    font-weight: 200;
+    margin: auto;
+}
+.iphone-text p{
+    text-align: left;
+    color: #100c08;
+    padding: 5px;
+    font-size: 0.5em;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}/*iphone section end here*/
+#ipad-container {
+    background-color: #100c08; 
+    background-size: auto;
+    margin: 0;
+}
+.ipad-content, .action-content, .info-content {
+    padding-top: 100px;
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    margin-bottom: 0px;
+}
+.ipad-content .ipad-pic {
+    width: 100%;
+    margin: 0;
+}
+.ipad-text, .info-text{
+    text-align: center;
+    color: #78866b;
+    padding-right: 100px;
+    font-size: 2em;
+    font-weight: 200;
+    margin: auto;
+}
+.ipad-text{
+        padding-top: 400px;
+}
+.ipad-text p, .info-text p{
+    text-align: left;
+    color: #78866b;
+    padding: 5px;
+    font-size: 0.5em;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}/*ipad section ends here*/
+#call-to-action{
+    background-image: url(Images/darkdesk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: 0;
+}
+.action-title {
+    font-size: 3em;
+    font-weight: 150;
+    padding-top: 50px;
+    color: white;
+}
+.col-0 p {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 300; 
+    letter-spacing: 2px;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+.action-button {
+    text-decoration: none;
+    background-color: #100c08;
+    color: white;
+    padding: 30px 90px;
+    
+}
+.action-button:hover {
+    background-color: #454545
+}/*call to action ends here*/
+#info-container {
+    background-color: #78866b;
+    overflow: auto;
+}
+.bottom-form {
+    margin-right: 200px;
+    background-color:  #100c08; 
+    padding: 50px 50px 20px 50px;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: wheat;
+}
+.bottom-form h6{
+    text-align: center;
+}
+.bottom-form input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin-top: 15px;
+    
+}
+.bottom-form button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin: 0;;
+    margin-top: 15px;
+    background-color: #a97c50;
+ 
+}
+.info-text, .info-text p {
+    color: wheat;
+}/*end of final form */
+footer {
+    margin-top: 0;
+    background-color: black;
+    clear: both;
+    height: 600px;
+    background-image: url(Images/footerbg.png);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.social-footer {
+    margin-top: 0;
+    width: 33%;
+    height: 50%;
+    float: left;
+}
+.social-footer:hover {
+    background-color: black;
+    opacity: .5;
+    
+}
+.center {
+    padding-top: 50px;
+    margin: auto;
+    width: 50px
+        
+}
+.copyright {
+    margin: auto;
+    width: 80%;
+    padding-left: ;
+}
+.copyright p {
+    color: white;
+    text-align: center;
+}
